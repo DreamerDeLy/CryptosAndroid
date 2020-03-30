@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Cryptos</string>
+    <string name="app_name" translatable="false">Cryptos</string>
     <string name="enter_text">Enter text</string>
     <string name="copy">Copy</string>
-    <string name="decrypt">Decrypt</string>
     <string name="encrypt">Encrypt</string>
     <string name="key">key</string>
     <string name="enter_key">Enter key</string>
+    <string name="decrypt">Decrypt</string>
 </resources>

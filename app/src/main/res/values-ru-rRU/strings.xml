@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cryptos</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="copy">Копировать</string>
+    <string name="decrypt">Расшифровать</string>
+    <string name="encrypt">Зашифровать</string>
+    <string name="key">ключ</string>
+    <string name="enter_key">Введите ключ</string>
+</resources>
