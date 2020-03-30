@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,5 +54,8 @@ public class MainActivity extends AppCompatActivity {
         ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
         ClipData clip = ClipData.newPlainText("simple text", text);
         clipboard.setPrimaryClip(clip);
+
+        Toast toast = Toast.makeText(getApplicationContext(),"Copied", Toast.LENGTH_SHORT);
+        toast.show();
     }
 }
